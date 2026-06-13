@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Omi - ඕමි",
+    "slug": "omi-game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0d4a2e"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0d4a2e"
+      },
+      "package": "net.theavo.omigame",
+      "versionCode": 1,
+      "permissions": ["INTERNET"]
+    },
+    "scheme": "omigame",
+    "plugins": ["expo-router"],
+    "extra": {
+      "router": { "origin": false },
+      "eas": { "projectId": "omi-game-placeholder" }
+    }
+  }
+}
