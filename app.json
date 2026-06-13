@@ -24,7 +24,7 @@
     "plugins": ["expo-router"],
     "extra": {
       "router": { "origin": false },
-      "eas": { "projectId": "omi-game-placeholder" }
+      "eas": { "projectId": "7be1d066-10f7-4997-bc5a-8d1b9d3337a0" }
     }
   }
 }
