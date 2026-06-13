@@ -19,13 +19,22 @@
       },
       "package": "net.theavo.omigame",
       "versionCode": 1,
-      "permissions": ["INTERNET"]
+      "permissions": [
+        "INTERNET"
+      ]
     },
     "scheme": "omigame",
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
     "extra": {
-      "router": { "origin": false },
-      "eas": { "projectId": "7be1d066-10f7-4997-bc5a-8d1b9d3337a0" }
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7be1d066-10f7-4997-bc5a-8d1b9d3337a0"
+      }
     }
   }
 }
