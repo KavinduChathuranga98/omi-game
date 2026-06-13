@@ -67,9 +67,9 @@ export default function SettingsScreen() {
           />
         </Section>
 
-        <View style={styles.version}>
-          <Text style={styles.versionText}>ඔමි Omi v1.0.0</Text>
-          <Text style={styles.versionSub}>Expandable • Classic & Modern Modes</Text>
+        <View style={sec.version}>
+          <Text style={sec.versionText}>ඔමි Omi v1.0.0</Text>
+          <Text style={sec.versionSub}>Expandable • Classic & Modern Modes</Text>
         </View>
       </ScrollView>
     </LinearGradient>
